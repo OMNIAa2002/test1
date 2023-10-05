@@ -1,0 +1,801 @@
+*{
+    margin: 0px;
+    top: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height:6000px;
+    
+   
+    
+}
+.header{
+    background-color: rgb(219, 213, 213);
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    opacity: 0.6;
+    
+
+}
+.img1{
+    width: 100px;
+    height: 60px;
+    margin-left: 0px;
+    
+
+ 
+}
+.list{
+    list-style: none;
+    float: right;
+    margin-right:150px;
+    padding:16px; 
+
+}
+.list li{
+    display: inline;
+    margin-left: 30px;
+    color: rgb(241, 237, 237);
+
+}
+.list  li a{
+    text-decoration: none;
+    color:  rgb(92, 92, 69);
+    font-size: 20px;
+    
+}
+.list li a:hover{
+    color: rgb(223, 154, 154);
+}
+
+.div1{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/photo_2023-10-05_01-04-47.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    position: relative;
+
+}
+.overley{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    background-color: rgba(53, 53, 53, 0.2);
+
+}
+.content{
+    width: 65%;
+    height: 235px;
+    background-color:rgb(224, 215, 215);
+    opacity: 0.8;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    border-radius: 11px;
+
+}
+.aa{
+    color: rgb(39, 38, 38);
+    font-size: 55px;
+    text-transform: capitalize;
+    padding: 2px;
+   
+    
+
+}
+.bb{
+    color:rgb(7, 5, 5) ;
+    letter-spacing: 1px;
+    margin: 15px 0px;
+}
+.cc{
+width: 160px;
+height: 50px;
+background-color: rgb(240, 235, 229) ;
+color: rgb(92, 92, 63);
+border-radius: 6px;
+font-size: 20px;
+font-family: Algerian;
+
+}
+.cc:hover{
+    background-color: rgb(182, 177, 177);
+}
+.dd{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 40px;
+    color: rgb(102, 100, 100);
+    font-family: Brush Script MT;
+    
+    
+
+}
+.ee{
+    height: 2.2px;
+    width: 110px;
+    background-color:  rgb(224, 218, 218); 
+    margin:auto;
+    margin-top: 30px;
+   
+    
+}
+.parent{
+    width: 80%;
+    margin: auto;
+    
+}
+.team-iteam{
+    float: left;
+    background-color: rgb(240, 235, 229);
+    width: 30%;
+    padding: 14px 18px;
+    text-align: center;
+    border-radius: 9px;
+    position: relative;
+}
+.ww{
+    margin: 0px 5%;
+}
+.about-img2{
+    width: 100%;
+    margin: auto;
+   
+
+
+}
+.nn{
+    width: 100%;
+    background-color:rgba(99, 94, 94, 0.5);
+    
+   
+}
+.nn:hover{
+    border-radius: 50%;
+}
+.titleh2{
+    color: rgb(102, 100, 100);
+    padding: 9px;
+    font-family: Brush Script MT;
+}
+.lab1{
+    color: rgb(102, 100, 100);
+    font-family: Brush Script MT;
+    padding: 10px;
+    
+}
+.btn1{
+    background-color: rgb(240, 235, 229) ;
+    width: 120px;
+    height: 40px; 
+    border-radius: 5px;
+    color: rgb(102, 100, 100);
+    margin-top: 7px;
+    font-family: Algerian;
+   
+}
+.ii{
+   color: rgb(102, 100, 100);
+   font-family: Brush Script MT;
+}
+.team-iteam:hover{
+    visibility: visible;
+}
+.team-iteam::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(73, 72, 72);
+    opacity: 0;
+    transition: 2s;
+   
+
+}
+.team-iteam:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    
+    
+   
+}
+.sc-title{
+    text-align: center;
+    margin-top: 450px;
+    font-size: 40px;
+    color: rgb(119, 83, 33);
+    padding: 30px;
+    
+}
+.line7{
+    height: 3px;
+    width: 70px;
+    background-color:  rgb(170, 158, 158); 
+    margin:auto;
+    margin-top: -15px;
+    
+    
+}
+.sc-header{
+    margin-bottom: 16px;
+    margin-top: 100px;
+}
+.portfolio{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/photo_2023-09-26_18-33-46.jpg);
+    background-repeat: no-repeat; 
+    background-size: 100% 100vh;
+    opacity: 0.8;
+
+}
+.container1{
+    width: 80%;
+    margin: auto;
+}
+.port-item{
+    float: left;
+    background-color: rgb(248, 246, 243);
+    width: 30%;
+    padding:  0px ;
+    text-align: center;
+    border-radius: 9px;
+    position: relative;
+    margin-bottom: 40px;
+    
+}
+.mg{
+    margin: 0px 5%;
+}
+.layer-info{
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  
+
+ 
+}
+.port-item:hover .layer-info{
+    background-color: rgba(247, 245, 245, 0.5);
+    visibility: visible;
+   
+}
+.category{
+    font-family: Brush Script MT;
+    color: rgb(202, 126, 33);
+   
+   
+}
+.layer-content-title{
+    font-family: Algerian;
+    color: rgb(235, 148, 42);
+
+}
+.jj{
+    color:rgb(10, 6, 6);
+    font-size: 25px;
+}
+.kk{
+    color: rgb(20, 13, 13);
+    font-size: 25px;
+}
+.port-item::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: rgb(112, 73, 73);
+    opacity: 0;
+    transition: 2s;
+   
+
+}
+.port-item:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+.section1{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/photo_2023-10-05_01-04-47.jpg);
+    background-repeat: no-repeat; 
+    background-size: 100% 100vh;
+    opacity: 0.8;
+}
+.section-title{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 40px;
+    color:rgb(168, 160, 147);
+    padding: 40px;
+}
+.linez{
+    height: 3px;
+    width: 60px;
+    background-color:rgb(168, 160, 147); 
+    margin:auto;
+    margin-top: -20px;
+    
+    
+}
+.container2{
+    width: 80%;
+    margin: auto;
+}
+.offer-item{
+    float: left;
+    background-color: rgb(248, 246, 243);
+    width: 30%;
+    padding:  10px ;
+    text-align: center;
+    border-radius: 9px;
+    position: relative;
+    margin-bottom: 40px;
+
+}
+.mc{
+    margin: 0px 5%;
+}
+.yy{
+    margin-right: 300px;
+    font-size: 25px;
+    color: rgb(168, 160, 147);
+}
+.offer-item-title{
+    font-size:26px ;
+    text-transform: capitalize;
+    text-decoration: underline;
+    color:rgb(168, 160, 147);
+    font-family: Harlow Solid Italic;
+   margin-bottom: 20px;
+}
+.offer-item-desc{
+    font-size: 15px;
+    text-transform: lowercase;
+    color: #615757;
+}
+.offer-item:hover{
+ 
+    visibility: visible;
+   
+}
+.offer-item::after{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: rgb(44, 44, 31);
+    opacity: 0;
+    transition: 1s;
+   
+
+}
+.offer-item:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+}
+.sec2-header{
+    margin-bottom: 40px;
+}
+.numbers{
+    background-image: url(../images/photo_2023-09-26_07-39-09.jpg);
+    /* background-repeat: no-repeat; */
+    background-attachment: fixed;
+    height: 50vh;
+    width: 100%;
+    /* background-size: 100% 50vh; */
+}
+.overlay{
+    margin-top: 100px;
+   
+}
+.container4{
+    width: 80%;
+    margin: auto;
+}
+.number-item{
+    width: 20%;
+    float: left;
+    text-align: center;
+    margin-top: 120px;
+    color: rgb(104, 96, 85);
+    margin-right: 33px;
+}
+
+.pricing1{
+   background-image: url(../images/photo_2023-09-27_06-02-19.jpg);
+   background-repeat: no-repeat;
+   width: 100%;
+   height: 100vh;
+   background-size: 100% 100vh;
+   
+}
+
+.container6{
+    width: 80%;
+    margin: auto;
+    
+
+}
+.pricing-item{
+    float: left;
+    background-color: #cec9c99f;
+    width: 30%;
+    height: 300px;
+    padding: 14px 15px;
+    text-align: center;
+    border-radius: 30px;
+    position: relative;
+    
+}
+.mn{
+    margin: 0px 5%;
+}
+.pricing-list {
+    text-decoration: none;
+    color: rgb(110, 93, 71);
+    text-transform:lowercase;
+    word-spacing: 2px;
+    line-height: 29px;
+    padding: 4px;
+    font-family: Brush Script MT;
+}
+.pricing-title{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 40px;
+    color: rgb(250, 254, 255);
+    padding: 80px;
+    font-family:Harlow Solid Italic;
+
+
+}
+.pricing-item-per{
+    color: #b4b0b157;
+    background-color: rgb(221, 212, 212);
+    border-radius: 50%;
+    height: 73px;
+    width: 73px;
+    padding: 11px;
+    margin-left: 70px;
+    margin-top: 15px;
+   
+
+}
+.pricing-item-text{
+    color: rgb(124, 124, 92);
+    font-family: Brush Script MT ;
+    font-size: 22px;
+}
+.doller{
+    font-size: 27px;
+    color: rgb(124, 124, 92);
+
+}
+.pricing-item-purchase{
+    background-color: rgb(240, 235, 229) ;
+    width: 120px;
+    height: 40px; 
+    border-radius: 5px;
+    color: rgb(121, 113, 84);
+    margin-top: 7px;
+    font-family:Harlow Solid Italic;
+}
+.month{
+    color: rgb(124, 124, 92);
+}
+.line-pricing{
+    height: 2.3px;
+    width: 60px;
+    background-color: rgb(180, 180, 151); 
+    margin:auto;
+    margin-bottom: 66px;
+    margin-top: -66px;
+    
+}
+.pricing-item:hover{
+ 
+    visibility: visible;
+   
+}
+
+.pricing-item::after{
+    position: absolute;
+    content: "";
+    width:100%;
+    height: 0;
+    top: 0;
+    right:  0;
+    background-color: rgb(110, 90, 97);
+    opacity: 0;
+    transition: 1s;
+   
+
+}
+.pricing-item:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+.pricing-list{
+    list-style-type: none;
+
+}
+.div9{
+    background-image: url(../images/photo_2023-09-26_07-39-06.jpg);
+    background-attachment: fixed;
+    height: 50vh;
+    width: 100%;
+    
+}
+.container8{
+    width: 80%;
+    margin: auto;
+}
+.test-item{
+    float: left;
+}
+.overlay9{
+    margin-top: 100px;
+}
+.ss{
+    border-radius: 50%;
+}
+.test-toplayer{
+    margin-left:100px ;
+    margin-top: 60px;
+   
+}
+.test-desc{
+    margin-left: 100px;
+     display:inline-block ;
+}
+.u{
+    color: rgb(119, 132, 201);
+}
+
+.container11{
+ width: 80%;
+ margin: auto;
+ 
+}
+.team-item4{
+    float: left;
+    background-color: antiquewhite;
+    width: 30%;
+    padding: 14px 18px;
+    background-image: url(../images/photo_2023-09-29_00-58-48.jpg);
+    position: relative;
+
+}
+.vvv{
+    margin: 0px 5%;
+}
+.team-imgg{
+    width: 90%;
+    margin: auto;
+    position: relative;
+}
+.team-imgg img{
+    width: 100%;
+}
+.team-overley4{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #d8a8a8;
+    opacity: 0.5;
+    visibility: hidden;
+    transition: 1s;
+}
+.team-item4:hover .team-overley4{
+    visibility: visible;
+    opacity: 0.4;
+    transition: 1s;
+}
+.team-overley4 a{
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: azure;
+    color: #bca7e2;
+    font-size: 23px;
+    margin-left: auto;
+    text-align: center;
+   
+}
+.team-overley4 a i{
+    line-height: 40px;
+    
+}
+.team-info-title4{
+    text-transform: uppercase;
+    padding: 12% 0px;
+    color: gray;
+}
+.team-info-spn{
+    text-transform: capitalize;
+    color: grey;
+
+}
+.team-item4:hover  .team-info-title4{
+    color: azure;
+
+}
+.team-item4:hover .team-info-spn{
+    color: azure;
+}
+.team-info4{
+    text-align: center;
+}
+.team-item4::after{
+    position: absolute;
+    content: "" ;
+    width: 100%;
+    height: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(219, 215, 209);
+    opacity: 0.1;
+    transition: 2s;
+}
+.team-item4:hover::after{
+width: 100%;
+height: 100%;
+opacity: 1;
+
+}
+.team-content4{
+    margin-top:120px ;
+}
+.div8{
+    background-image: url(../images/photo_2023-09-29_00-58-51.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: 100% 100vh;
+}
+.section-headerss{
+    margin-top: 550px;
+}
+.section-titles{
+    text-align: center;
+    margin-top: 200px;
+    font-size: 40px;
+    color: rgb(250, 254, 255);
+    padding: 80px;
+    font-family:Harlow Solid Italic;
+
+}
+.linesv{
+    height: 2.2px;
+    width: 60px;
+    background-color:rgb(134, 130, 130); 
+    margin:auto;
+    margin-top: -66px;
+    margin-bottom: 30px;
+   
+}
+.containerss{
+    width: 80%;
+    margin: auto;
+}
+.blog-item{
+    float: left;
+    width: 30%;
+    padding: 14px 18px;
+    text-align: center;
+    border-radius: 9px;
+    position: relative;
+}
+.ms{
+    margin: 0px 5%;
+}
+.sh{
+    border-radius: 50%;
+    border: 2px solid white;
+    
+}
+.blog-list li{
+   
+    list-style-type: none;
+    display:inline ;
+    margin: 3px;
+    color: rgb(77, 70, 70);
+}
+.blog-title{
+    margin: 11px 7px;
+    color: rgb(77, 68, 60);
+}
+.blog-link{
+    background-color: rgb(240, 235, 229) ;
+    font-size: 25px;
+    border-radius: 5px;
+    color: rgb(65, 64, 64);
+    /* margin-top: 9px; */
+    font-family: Algerian;
+    padding: 3px;
+   
+
+}
+.blog-desc{
+    color: #413f3f;
+    margin-bottom: 7px;
+}
+.blog-item::after{
+    position: absolute;
+    content: "" ;
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 254, 253);
+    opacity: 0.1;
+    transition: 2s;
+}
+.blog-item:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    
+}
+.the-last-section{
+    margin-top: 70px;
+    background-color: #d1cfcf;
+    background-attachment: fixed;
+    height: 70vh;
+    width: 100%;
+}
+.omnia-k{
+   margin-left: 40%;
+   margin-top: 30px;
+   border-radius: 50%;
+}
+.last-links  {
+    list-style-type: none;
+    text-align: center;
+    
+}
+.last-links li {
+    color: #424546;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    padding-top:20px ;
+    font-size: 20px;
+ 
+    
+     
+}
+.copyright-p{
+    text-align: center;
+    padding: 15px;
+    color: #424546;
+    
+}
+.last-links li:hover {
+    color: #6083c4;
+
+}
